@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+  <div class="main-container">
+    <h2>Rounding-off</h2>
+    <div class="btn-ctn">
+      <button id="btn" type="submit" onclick=numberIStarted()>start</button>
+    </div>
+    <div class="sub-container">
+      
+    <span class="number-normal" id="a1">.</span>
+    <span class="number-normal" id="a1">2</span>
+    <span class="number-normal" id="a1">4</span>
+    <span class="number-normal" id="a1">3</span>
+    <span class="number-normal" id="a1">5</span>
+    <span class="number-i" id="n">4</span>
+    <span class="number-j" id="x">x</span>
+    <span class="number-normal" id="a1">7</span>
+    <span class="number-normal" id="a1">3</span>
+    </div>
+  </div>
+  <section class="info">
+    <div class="container-info" id="container-info">
+      <p>This is the number upto which we have to round-off this value</p>
+    </div>
+  </section>
+ 
+  <section>
+    <nav class="navbar">
+      <div id="condition-one">
+        <h3>when (i+1)th number is greater than half of unity <br />We generally increment the value of the ith element by one </h3>
+      </div>
+      <div id="condition-two">
+        <h3>when (i+1)th number is lesser than half of unity <br />We generally do not increment the value of the ith element</h3>
+      </div>
+      <div id="condition-three">
+         <h3>when (i+1)th number is equal than half of unity <br />We generally increment the value of the ith element by one if ith value is odd and it will remain same if the ith value is even </h3>
+      </div>
+    </nav>
+  </section>
+  
+  
+  
+  
+  
+ 
+  <script src="main.js"></script>
+</body>
+</html>

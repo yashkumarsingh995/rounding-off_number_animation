@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display:flex;
+  justify-content: center;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  height:30vh;
+  justify-content: center;
+  align-items: center;
+}
+.main-container h2{
+  margin-bottom:20px;
+}
+.sub-container{
+  display:flex;
+  margin-top:60px;
+}
+.number-normal{
+  border:2px solid yellow;
+  width: 20px;
+  height:40px;
+  padding-top:22px;
+  border-radius: 33px;
+  padding-left:11px;
+  margin:2px;
+  background-color:lightyellow;
+}
+
+/***animating numbers***/
+.number-i{
+  border:2px solid orange;
+  width:20px; 
+  height:40px; 
+  padding-top: 22px;
+  border-radius: 33px;
+  padding-left:11px;
+  margin:2px;
+  background-color: lightgoldenrodyellow;
+}
+#n{
+  transition:.7s;
+}
+.number-j{
+  border:2px solid green;
+  width:20px;
+  height:40px;
+  padding-top:22px;
+  border-radius:33px;
+  padding-left:11px;
+  margin:2px;
+  background-color: lightgreen;
+}
+#x{
+  transition:.7s;
+}
+/***responsive button*****/
+#btn{
+  width:80px;
+  height:50px;
+  background:lightseagreen;
+  border:2px solid lightcyan;
+  padding:6px;
+  border-radius:13px;
+  font-size:15px;
+  
+}
+
+/*section where  most of the animating objects are placed*/
+
+
+
+
+/**info section**/
+
+.container-info{
+  text-align: center;
+  border: 2px solid lawngreen;
+  border-radius: 13px;
+  width:85%;
+  margin-left:5px;
+  background-color:lightyellow;
+  color:blue;
+  padding:7px;
+  display:none;
+  transition:.7s;
+}
+
+/****condition one box*********/
+
+#condition-one{
+  display:flex;
+  border:2px solid lightcoral;
+  width:255px;
+  position:fixed;
+  right:-270px;
+  bottom:250px;
+  border-top-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+  border-bottom-left-radius:13px;
+  background-color: lightblue;
+  padding:9px;
+  z-index:1;
+}
+/*****condition two box********/
+
+#condition-two {
+  display: flex;
+  border: 2px solid lightcoral;
+  width: 255px;
+  position: fixed;
+  right: -270px;
+  bottom: 250px;
+  border-top-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 13px;
+  background-color: indianred;
+  padding: 9px;
+  z-index: 2;
+}
+
+/*****condition three box*******/
+#condition-three {
+  display: flex;
+  border: 2px solid lightcoral;
+  width: 255px;
+  position: fixed;
+  right: -270px;
+  bottom: 250px;
+  border-top-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 13px;
+  background-color: lightblue;
+  padding: 9px;
+  z-index: 3;
+}
